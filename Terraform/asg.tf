@@ -90,6 +90,6 @@ resource "aws_security_group" "asg-nodejs-sg-wajid" {
   }
 
   tags = {
-    Name = "asg--sg-wajid"
+    Name = "asg-sg-wajid"
   }
 }
