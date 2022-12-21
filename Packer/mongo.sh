@@ -1,5 +1,4 @@
 #!/bin/bash
-sleep 10
 sudo apt update && sudo apt upgrade -y
 sudo apt autoremove --purge
 sudo apt autoclean
