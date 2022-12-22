@@ -30,7 +30,6 @@ resource "aws_security_group" "mongo-sg-wajid" {
     from_port   = 27017
     to_port     = 27017
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
     security_groups_id = [resource.aws_security_group.asg-nodejs-sg-wajid.id]
   }
 
