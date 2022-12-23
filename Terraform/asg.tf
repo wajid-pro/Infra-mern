@@ -60,7 +60,7 @@ resource "aws_autoscaling_policy" "asg-policy" {
   }
 }
 
-#ALB security group
+#ASG security group
 resource "aws_security_group" "asg-nodejs-sg-wajid" {
   name        = "asg-nodejs-sg-wajid"
   description = "Allow traffic for NodeJs server"
